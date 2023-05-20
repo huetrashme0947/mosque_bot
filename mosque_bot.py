@@ -102,11 +102,6 @@ def masjid_bot(conn, config):
 				move_everyone_to_masjid(conn, config["MoveToMosque"]["IshaChannel"], config["MoveMessages"]["IshaMessage"], config);
 				print(" done")
 				break
-			elif True:
-				print("Isha time alhamdulillah! Moving clients to mosque...", end="")
-				move_everyone_to_masjid(conn, config["MoveToMosque"]["IshaChannel"], config["MoveMessages"]["IshaMessage"], config);
-				print(" done")
-				break
 			else:
 				time.sleep(60)
 				conn.send_keepalive()

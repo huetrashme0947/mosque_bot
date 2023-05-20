@@ -29,8 +29,7 @@ The bot uses and needs access to the ServerQuery raw (not SSH) interface to comm
 Clone the repository and install the dependencies:
 
 	git clone https://github.com/huetrashme0947/mosque_bot
-	cd mosque_bot
-	pip install -r requirements.txt
+	pip install -r mosque_bot/Requirements.txt
 
 
 ## Configuration
@@ -41,4 +40,4 @@ The bot supports a range of customization options which can be configured in the
 
 The bot can be started directly in a shell by simply executing the ```mosque_bot.py``` script:
 
-	python3 mosque_bot.py
+	python mosque_bot.py

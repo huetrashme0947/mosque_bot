@@ -21,7 +21,7 @@ TeamSpeak 3 bot written in Python for moving users to a specific channel at pray
 
 ## Requirements
 
-The bot uses and needs access to the ServerQuery raw (not SSH) interface to communicate with the TeamSpeak server. The bot needs a Query account with the  ```b_serverinstance_textmessage_send``` permission set and the ```i_client_move_power``` set high enough to move clients (75 should do the trick for most server configurations).
+The bot uses and needs access to the ServerQuery raw (not SSH) interface to communicate with the TeamSpeak server. The bot needs a Query account with the  ```b_serverinstance_textmessage_send``` permission set if the bot should message clients when moving them or the ```i_client_poke_power``` permission set high enough to poke clients if the bot should poke clients (75 should do the trick for most server configurations). Also the ```i_client_move_power``` needs to be high enough to move clients (75 should also work here in most cases).
 
 
 ## Installation
